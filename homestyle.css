@@ -1,0 +1,255 @@
+body {
+  background-color: #383C3F;
+}
+
+header {
+ font-family:"calibri", times, serif;
+  color:#FFFFFF;
+}
+
+footer {
+ font-family:"calibri", times, serif;
+  color:#FFFFFF;
+}
+
+
+body {
+ font-family:"calibri", times, serif;
+  color:#FFFFFF;
+}
+
+body {
+ font-family:"calibri", times, serif;
+  color:#FFFFFF;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: #100F0F;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: list-item;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: white;
+    border-bottom: 2px solid gold;
+transition: all 0.2s ease-out;
+width: 100% ;
+}
+
+nav a:active{
+    color: white;
+    border-bottom: 2px solid gold;
+	border-top: 2px solid gold;
+transition: all 0.2s ease-out;
+}
+
+
+}
+
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
+
+
+
+/*button standar*/
+
+
+.button {
+  background-color: #4CAF50;
+border:none ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   border-radius: 100px;
+  transition: all 0.2s ease-out;
+  width: 50%
+
+}
+
+.button:hover {
+ border-left : 5pt solid #4CAF50;
+ border-right : 5pt solid #4CAF50;
+	border-radius: 5px;
+  background-color: #262626;
+  color: white;
+  text-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  width: 80% ;
+}
+
+/*button petit*/
+
+
+.smallbutton {
+  background-color: #0062E2;
+  border:solid 3px;
+  border-color:#0062E2 ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   border-radius: 100px;
+  transition: all 0.2s ease-out;
+  width: 25%
+
+}
+
+.smallbutton:hover {
+background-color: white;
+color: #0062E2;
+border:solid 3px;
+border-color:#0062E2 ;
+  transition: all 0.2s ease-out;
+
+}
+
+.smallbutton:active {
+background-color: #0062E2;
+color: white;
+border:solid 3px ;
+border-color:#0062E2 ;
+width: 30%;
+  box-shadow: 5px 2px 3px 3px #222222;
+}
+
+
+/*imganim*/
+
+img.zoomEffect {
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
+    opacity: 0.7;
+}
+img.zoomEffect:hover {
+border-bottom-style: solid ;
+border-width: 5px;
+border-color: #a0a0a0;
+    opacity: 1;
+}
+/*imgcours*/
+figure {
+    border: thin #c0c0c0 solid;
+        border-width: 1px;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+width:50%;
+height:auto;
+transition: all 0.2s ease-out;
+
+}
+
+figure:hover {
+      border: thin  #717171 solid;
+      border-width: 3px;
+    display: flex;
+    flex-flow: column;
+width:49%;
+opacity:0.7;
+
+}
+
+
+
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+
+}
+
+.pg{
+    width:50%;
+    background: blue;
+    border: solid;
+    border-color:rgb(43, 43, 43);
+    transition: all 0.2s ease-out;
+
+}
+
+.pg:hover{
+    border: none;
+    border-color:rgb(43, 43, 43);
+
+}
+
+
+
+.cadretext{ border: 1px solid black; padding: 5px; }
+/*espacements*/
+hr {
+    border-top: solid;
+    border-bottom: solid;
+    border-top: 3px double #333;
+    color: #ffffff;
+    overflow: visible;
+    height: 1px;
+}
+
+hr:hover {
+  border-top: solid;
+  border-bottom: solid;
+  border-top: 3px double #333;
+  color: #ffffff;
+  overflow: visible;
+  height: 1px;
+}
+
+
+/*------------- mise en page -------------*/
+
+p {
+  text-align: justify;
+}
+p span.gauche {
+  float: left;
+}
+p span.droite {
+  float: right;
+}
