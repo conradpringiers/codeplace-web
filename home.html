@@ -40,10 +40,7 @@
                         if(gcookie('visit_name')=='' || gcookie('nb_visits')=='')
                         {
                                 name = prompt('Quel est votre nom?','anonyme');
-                                if(name=='')
-                                {
-                                        name='anonyme';
-                                }
+                               
                                 scookie('visit_name',name,100);
                                 nb_visits=1;
                         }
