@@ -34,7 +34,6 @@ nav{
     background-color: #100F0F;
     position: sticky;
     top: 0px;
-	  box-shadow: 3px 5px 5px white;
 }
 
 nav ul{
@@ -66,14 +65,12 @@ nav a:hover{
     border-bottom: 2px solid gold;
 transition: all 0.2s ease-out;
 width: 100% ;
-	box-shadow: 3px 5px 5px white;
 }
 
 nav a:active{
     color: white;
     border-bottom: 2px solid gold;
 	border-top: 2px solid gold;
-transition: all 0.2s ease-out;
 }
 
 
@@ -190,6 +187,7 @@ figure:hover {
     flex-flow: column;
 width:49%;
 opacity:0.7;
+		box-shadow: 3px 5px 5px white;
 
 }
 
